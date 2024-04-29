@@ -1,0 +1,822 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./FontsofEnd/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofEnd/Cormorant/Cormorant-Regular.ttf");
+}
+body {
+  background-color: #000;
+}
+
+.contact {
+  width: 100%;
+  height: 2441px;
+  position: relative;
+}
+.contact nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.contact nav .nav_commun {
+  width: 86%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 153px;
+}
+.contact nav .nav_commun .nav_tete {
+  width: 840px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.contact nav .nav_commun .nav_tete .logos {
+  position: absolute;
+  top: 0;
+}
+.contact nav .nav_commun .nav_tete ul {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+.contact nav .nav_commun .nav_tete ul li {
+  list-style: none;
+}
+.contact nav .nav_commun .nav_tete ul li a {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.contact nav .nav_commun .number {
+  width: 231px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+.contact nav .nav_commun .number .shopping {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: right;
+}
+.contact nav .nav_commun .number .shopping img {
+  cursor: pointer;
+  width: 40px;
+}
+.contact nav .nav_commun .number p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact .idinticator {
+  width: 145px;
+  height: 15px;
+  margin: 35px 0px 0px 110px;
+  position: absolute;
+  z-index: 3;
+}
+.contact .idinticator p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.contact .contact_back {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  z-index: -1;
+}
+.contact .contact_back .red_coin {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contact .contact_back .coin_right {
+  position: absolute;
+  right: 0;
+}
+.contact .contact_back .coin_center {
+  position: absolute;
+  bottom: -250px;
+}
+.contact .contact_back .right_fleur {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+.contact .contact_back .comment_rose {
+  position: absolute;
+  top: 170px;
+}
+.contact .contact_com {
+  width: 87%;
+  height: 1905px;
+  margin: 0 auto;
+}
+.contact .contact_com .contact_address {
+  width: 87%;
+  height: 416px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: absolute;
+  z-index: 2;
+  left: 110px;
+  top: 200px;
+}
+.contact .contact_com .contact_address .contact_text {
+  width: 685px;
+  height: 95px;
+}
+.contact .contact_com .contact_address .contact_text h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-left: 115px;
+  text-transform: uppercase;
+}
+.contact .contact_com .contact_address .contact_phase {
+  width: 1213px;
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.contact .contact_com .contact_address .contact_phase .F1 {
+  width: 280px;
+  height: 255px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.contact .contact_com .contact_address .contact_phase .F1 .phase_into {
+  width: 190px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 110px 52px 72px 52px;
+}
+.contact .contact_com .contact_address .contact_phase .F1 .phase_into h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.contact .contact_com .contact_address .contact_phase .F1 .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+.contact .contact_com .contact_address .contact_phase .F2 {
+  width: 280px;
+  height: 255px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.contact .contact_com .contact_address .contact_phase .F2 .phase_into {
+  width: 250px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 110px 52px 72px 20px;
+}
+.contact .contact_com .contact_address .contact_phase .F2 .phase_into h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.contact .contact_com .contact_address .contact_phase .F2 .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+.contact .contact_com .contact_address .contact_phase .F3 {
+  width: 280px;
+  height: 255px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.contact .contact_com .contact_address .contact_phase .F3 .phase_into {
+  width: 190px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 110px 52px 72px 52px;
+}
+.contact .contact_com .contact_address .contact_phase .F3 .phase_into h4 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.contact .contact_com .contact_address .contact_phase .F3 .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+.contact .contact_com .contact_address .contact_phase .F4 {
+  width: 280px;
+  height: 255px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.contact .contact_com .contact_address .contact_phase .F4 .phase_into {
+  width: 190px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 110px 52px 72px 52px;
+}
+.contact .contact_com .contact_address .contact_phase .F4 .phase_into h5 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.contact .contact_com .contact_address .contact_phase .F4 .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+.contact .contact_com .comment {
+  width: 87%;
+  height: 590px;
+  position: absolute;
+  top: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.contact .contact_com .comment .comment_descr {
+  width: 50%;
+  height: 471px;
+  position: absolute;
+  left: 70px;
+}
+.contact .contact_com .comment .comment_descr .grand_descr {
+  width: 604px;
+  height: 210px;
+}
+.contact .contact_com .comment .comment_descr .grand_descr h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.contact .contact_com .comment .comment_descr .grand_descr h2 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 355px;
+}
+.contact .contact_com .comment .comment_descr img {
+  position: absolute;
+  left: 250px;
+}
+.contact .contact_com .comment .comment_submit {
+  width: 45%;
+  height: 590px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact .contact_com .comment .comment_submit .submit_tete {
+  width: 330px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px 0px 0px 120px;
+}
+.contact .contact_com .comment .comment_submit .submit_tete hr {
+  width: 255px;
+  height: 1px;
+  background: #43FFD2;
+}
+.contact .contact_com .comment .comment_submit .submit_tete p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact .contact_com .comment .comment_submit .submit_accept {
+  width: 445px;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .input_group {
+  width: 445px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .input_group .name {
+  width: 445px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  background: transparent;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .input_group .numero {
+  width: 445px;
+  height: 60px;
+  background: transparent;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .input_group .post {
+  width: 445px;
+  height: 120px;
+  flex-shrink: 0;
+  color: #555;
+  background: transparent;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .bas_com {
+  width: 342px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .bas_com button {
+  width: 255px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #43FFD2;
+  color: #000;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .bas_com p {
+  color: #FFF;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.contact .contact_com .comment .comment_submit .submit_accept .bas_com span {
+  color: #8B3131;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+}
+.contact .contact_com .map {
+  width: 73.5%;
+  height: 483.5px;
+  margin: 0 auto;
+  position: absolute;
+  top: 1500px;
+  left: 175px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact .contact_com .map .map_mot {
+  width: 160px;
+  height: 30px;
+}
+.contact .contact_com .map .map_mot h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.contact .contact_com .map .map_indication {
+  width: 1112px;
+  height: 427px;
+}
+.contact .map_left {
+  position: absolute;
+  top: 1700px;
+}
+.contact .map_right {
+  position: absolute;
+  right: 0;
+  top: 1750px;
+}
+.contact footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  margin: -77px 0px 0px 0px;
+  position: absolute;
+  top: 2250px;
+  background: #040A0A;
+}
+.contact footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+.contact footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+.contact footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.contact footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.contact footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+.contact footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.contact footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.contact footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.contact footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.contact footer .footer_commun .nav_commun .nav_bas {
+  width: 180px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contact footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

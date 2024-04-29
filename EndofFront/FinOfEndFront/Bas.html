@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Bas.css">
+    <link rel="stylesheet" href="./IconsOfFin/fontawesome-free-6.2.1-web/css/all.min.css" />
+</head>
+<body>
+    <div class="beginlower">
+
+        <div class="hautgeneral">
+            <nav>
+                <ul>
+                    <img class="brand" src="./ImagesOfFin/brandy.svg" alt="">
+                    <div class="details">
+                        <li><a href="catalog">Каталог</a></li>
+                        <li><a href="services">Доставка и оплата</a></li>
+                        <li><a href="about">О нас</a></li>
+                        <li><a href="contact">Контакты</a></li>
+                        <li><a href="FAQ">FAQ</a></li>
+                        <div class="iconsgroup">
+                            <li><a href="search"><img src="./IconsOfFin/search.svg" alt=""> поиск</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+
+            <div class="address">
+                <div class="onepart">
+                    <p>zakaz@loverflower.by</p>
+                    <span>Доставка 24/7 по договоренности с оператором</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="idinticatornav">
+            <div class="pagenav">
+                <p>Главная / Каталог</p>
+            </div>
+            <div class="secondpart">
+                <p>ул. Тимирязева 67</p>
+                <span>10:00 до 21:00 <br>
+                    без выходных</span>
+            </div>
+        </div>
+
+        <div class="descr_com">
+            <div class="description">
+                <div class="descr_catalog">
+                    <div class="descr_filter">
+                        <div class="descrF_haut">
+                            <div class="F_haut">
+                                <h1>каталог</h1>
+                            </div>
+                        </div>
+                        <div class="descrF_bas">
+                            <div class="F_bas">
+                                <h2>букетов</h2>
+                            </div>
+                            <div class="F_title">
+                                <p>В нашем магазине самый большой выбор букетов для любых событий:</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="descr_button">
+                        <div class="button_premier">
+                            <button class="F1">Букеты из гипсофил</button> <button class="F2">Букеты из ромашек</button>
+                            <button class="F3">Букеты из хризантем</button> <button class="F4">Комнатные цветы в
+                                горшках</button> <button class="F5">Монобукеты</button>
+                        </div>
+                        <div class="button_second">
+                            <button class="F6">Сборные букеты</button> <button class="F7">Букет на праздник</button>
+                            <button class="F8">Композиции из цветов</button> <button class="F9">Конверты</button>
+                            <button class="F10">Открытки</button>
+                            <button class="F11">Подарки</button>
+                            <button id="F12" value="Букеты из сухоцветов"><a href="./Bas.html"> Букеты из
+                                    сухоцветов</a></button>
+                        </div>
+                        <div class="button_last">
+                            <button class="F13">Шары</button> <button class="F14">Популярное</button> <button
+                                class="F15">Букеты роз</button>
+                            <button class="F16">Цветы на похороны</button> <button class="F17">Упаковка
+                                подарков</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social_com">
+                    <div class="social">
+                        <img src="./IconsOfFin/social.svg" alt="">
+                    </div>
+                    <div class="continuation">
+                        <div class="continuation_com">
+                            <p>+375 (29) 113-69-69</p>
+                            <div class="call">
+                                <button> <img src="./IconsOfFin/phone.svg"> заказать звонок</button>
+                            </div>
+                        </div>
+                        <div class="sacamain">
+                            <img src="./IconsOfFin/sac.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="select">
+                <div id="checkbox_value">
+                    <p>Букеты из сухоцветов</p>
+                    <button onclick="myFunction()" class="close-button"><img src="./ImagesOfFin/XClose.svg"></button>
+                </div>
+                <select name="selected">
+                    <option value="---">По популярности</option>
+                    <option value="Альстромерия">Альстромерия</option>
+                    <option value="Аспарагус">Аспарагус</option>
+                    <option value="Астильба">Астильба (7)</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="derrier_com">
+            <div class="derrier">
+                <div class="derrier_intro"></div>
+            </div>
+            <div class="derrier_right">
+                <div class="right_interieur">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <form class="filter">
+                <div class="item">
+                    <h2>По цвету</h2>
+                    <select name="tsvet">
+                        <option value="">---</option>
+                        <option value="желтый">желтый</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <div class="item_com">
+                        <label for="">Min Price</label>
+                        <input type="range" name="minPrice">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item_right">
+
+
+                        <div class="item_left">
+                            <h5>по цветку</h5>
+
+
+                            <select name="tsvetko">
+                                <option value="">---</option>
+                                <option value="Альстромерия">Альстромерия</option>
+                                <option value="Антуриум">Антуриум</option>
+                                <option value="Аспарагус">Аспарагус</option>
+                                <option value="Астильба">Астильба</option>
+                                <option value="Астранция">Астранция </option>
+                            </select>
+                        </div>
+
+                        <div class="item_gauche">
+                            <hr>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item submit">
+                    <button>Сбросить фильтр</button>
+                </div>
+            </form>
+            <div id="list">
+            </div>
+        </div>
+
+        <div class="container_com">
+            <div class="container_derrier"></div>
+            <div class="container_bas"></div>
+        </div>
+
+        <div class="last_commun">
+
+            <div class="bas_commun">
+                <div class="bas_begin">
+                    <div class="bas_left"></div>
+                </div>
+                <div class="bas_part">
+
+                    <div class="bas_center"></div>
+                    <div class="bas_right"></div>
+
+
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer_commun">
+                    <div class="prop_commun">
+                        <div class="prop">
+                            <img src="./ImagesOfFin/brandy.svg">
+                            <div class="prop_com">
+                                <h1>реквизиты</h1>
+                                <p>ООО «Ловефлове» 220035, Республика Беларусь, г. Минск, ул. Тимирязева д. 67, комн.
+                                    112
+                                    (пом.11) УНП
+                                    193263781, р/с BY55MTBK30120001093300096372 ЗАО «МТБанк», БИК MTBKBY22 220007, г.
+                                    Минск,
+                                    улица
+                                    Толстого</p>
+                            </div>
+                        </div>
+
+                        <div class="row_commun">
+                            <div class="row">
+                                <h2>Каталог</h2>
+                                <ul>
+                                    <li>Популярное</li>
+                                    <li>Сухоцветы</li>
+                                    <li>Букеты роз</li>
+                                    <li>Композиции из цветов</li>
+                                    <li>Индивидуальный букет</li>
+                                    <li>Букет на праздник</li>
+                                    <li>Упаковка подарков</li>
+                                    <li>Шары</li>
+                                    <li>Открытки</li>
+                                    <li>Конверты</li>
+                                </ul>
+                            </div>
+
+                            <div class="bouquet">
+                                <h3>Букет</h3>
+                                <ul>
+                                    <li>Для девушки</li>
+                                    <li>Для мужчины</li>
+                                    <li>Для жены</li>
+                                    <li>Для мамы</li>
+                                    <li>Для коллеги</li>
+                                    <li>Для начальника</li>
+                                    <li>Для дочки</li>
+                                    <li>Для детей</li>
+                                    <li>Для женщины</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nav_commun">
+                        <div class="nav_bas">
+                            <p>Доставка и оплата </p>
+                            <p>О нас</p>
+                            <p>FAQ</p>
+                            <p>Контакты</p>
+                            <p>для корпоративных клиентов</p>
+                        </div>
+
+                        <div class="adress_end">
+                            <div class="address_com">
+                                <div class="email">
+                                    <h1>zakaz@loverflower.by</h1>
+                                    <p>Доставка 24/7 по договоренности с оператором</p>
+                                </div>
+
+                                <div class="rue">
+                                    <h1>ул. Тимирязева 67</h1>
+                                    <p>10:00 до 21:00
+                                        без выходных</p>
+                                </div>
+
+                                <div class="phone">
+                                    <h1>+375 (29) 113-69-69</h1>
+                                    <p>прием звонков круглосуточно</p>
+                                </div>
+                            </div>
+
+                            <div class="social_end">
+                                <img src="IconsOfFin/insta.svg">
+                                <img src="./IconsOfFin/wh.app.svg">
+                                <img src="./IconsOfFin/viber.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+    <script src="./Bas.js"></script>
+</body>
+
+</html>

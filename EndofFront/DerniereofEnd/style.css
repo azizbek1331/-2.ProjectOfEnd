@@ -1,0 +1,1204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./FontsofEnd/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofEnd/Cormorant/Cormorant-Regular.ttf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  background-color: black;
+}
+
+.last_derniere {
+  width: 100%;
+  height: 4000px;
+  position: relative;
+}
+.last_derniere .haut_derriere {
+  width: 100%;
+  height: 695px;
+  position: absolute;
+  top: 0;
+}
+.last_derniere .haut_derriere .haut_coin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -3;
+}
+.last_derniere .haut_derriere .haut_right {
+  position: absolute;
+  right: 0;
+  z-index: -4;
+}
+.last_derniere .haut_derriere .fleur_droit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.last_derniere .haut_derriere .fleur_gauche {
+  position: absolute;
+  right: 0;
+  z-index: 8;
+}
+.last_derniere .haut_derriere .main_fleur {
+  position: absolute;
+  top: 1600px;
+}
+.last_derniere nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background: #000;
+}
+.last_derniere nav .nav_commun {
+  width: 86%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 153px;
+}
+.last_derniere nav .nav_commun .nav_tete {
+  width: 840px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.last_derniere nav .nav_commun .nav_tete .logos {
+  position: absolute;
+  top: 0;
+}
+.last_derniere nav .nav_commun .nav_tete ul {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+.last_derniere nav .nav_commun .nav_tete ul li {
+  list-style: none;
+}
+.last_derniere nav .nav_commun .nav_tete ul li a {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.last_derniere nav .nav_commun .number {
+  width: 231px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+.last_derniere nav .nav_commun .number .shopping {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: right;
+}
+.last_derniere nav .nav_commun .number .shopping img {
+  cursor: pointer;
+  width: 40px;
+}
+.last_derniere nav .nav_commun .number p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.last_derniere .idinticator {
+  width: 261px;
+  height: 15px;
+  margin: 35px 0px 0px 110px;
+  position: absolute;
+  top: 100px;
+  z-index: 3;
+}
+.last_derniere .idinticator p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part {
+  width: 86%;
+  height: 1615px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 200px auto;
+}
+.last_derniere .bouquet_part .bouquet_begin {
+  width: 600px;
+  height: 217px;
+  margin-left: 150px;
+}
+.last_derniere .bouquet_part .bouquet_begin .letters {
+  width: 420px;
+  height: 163px;
+}
+.last_derniere .bouquet_part .bouquet_begin .letters h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part .bouquet_begin .letters p {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part .bouquet_begin .employeurs {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-left: 110px;
+}
+.last_derniere .bouquet_part .petit_part {
+  width: 1000px;
+  height: 45px;
+}
+.last_derniere .bouquet_part .petit_part p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part .petit_part span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part .publicite {
+  width: 736px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere .bouquet_part .publicite p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.last_derniere .bouquet_part .publicite span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.last_derniere .bouquet_part .about_delivery {
+  width: 1100px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere .bouquet_part .about_delivery p {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part .about_delivery span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_part .quantite {
+  width: 1120px;
+  height: 365px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.last_derniere .bouquet_part .quantite .table {
+  width: 540px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last_derniere .bouquet_part .quantite .table .month {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .table .month p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.last_derniere .bouquet_part .quantite .table .number {
+  width: 540px;
+  height: 80px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .table .number p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.last_derniere .bouquet_part .quantite .table .dix {
+  width: 540px;
+  height: 80px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .table .dix p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.last_derniere .bouquet_part .quantite .table .plus {
+  width: 540px;
+  height: 110px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .table .plus p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.last_derniere .bouquet_part .quantite .carnet {
+  width: 550px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last_derniere .bouquet_part .quantite .carnet .month {
+  width: 550px;
+  height: 60px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .carnet .month p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.last_derniere .bouquet_part .quantite .carnet .number {
+  width: 550px;
+  height: 80px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .carnet .number p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 10px 0px 0px 20px;
+}
+.last_derniere .bouquet_part .quantite .carnet .dix {
+  width: 550px;
+  height: 80px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .carnet .dix p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 10px 0px 10px 20px;
+}
+.last_derniere .bouquet_part .quantite .carnet .plus {
+  width: 550px;
+  height: 110px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.last_derniere .bouquet_part .quantite .carnet .plus p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  margin: 10px 82px 10px 20px;
+}
+.last_derniere .bouquet_part .quantite .back {
+  position: absolute;
+  top: -170px;
+  z-index: -9;
+}
+.last_derniere .bouquet_suite {
+  width: 86%;
+  height: 1620px;
+  position: relative;
+  left: 107px;
+  top: -200px;
+  display: flex;
+  flex-direction: column;
+  gap: 184px;
+}
+.last_derniere .bouquet_suite .suite_phase {
+  width: 405px;
+  height: 220px;
+  position: absolute;
+  left: 570px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.last_derniere .bouquet_suite .suite_phase h2 {
+  color: #43FFD2;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_suite .suite_phase .list {
+  width: 405px;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere .bouquet_suite .suite_phase .list hr {
+  width: 60px;
+  height: 1px;
+  background: #43FFD2;
+}
+.last_derniere .bouquet_suite .suite_phase .list ol li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+.last_derniere .bouquet_suite .grand_descr {
+  width: 1200px;
+  height: 1073px;
+  position: absolute;
+  top: 543px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.last_derniere .bouquet_suite .grand_descr p {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_suite .grand_descr .submit {
+  width: 100%;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .exclaim {
+  width: 225px;
+  height: 30px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .exclaim span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs {
+  width: 1170px;
+  height: 740px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left {
+  width: 545px;
+  height: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B1 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B1 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B1 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B2 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B2 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B2 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B3 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B3 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B3 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B4 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B4 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B4 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B5 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B5 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B5 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B6 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B6 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .left .B6 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right {
+  width: 545px;
+  height: 615px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C1 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C1 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C1 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C2 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C2 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C2 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C3 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C3 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C3 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C4 {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C4 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right .C4 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: transparent;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .inputs .right img {
+  margin-left: 195px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .send {
+  width: 442px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .send button {
+  width: 255px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #43FFD2;
+  color: #000;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .send p {
+  color: #FFF;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.last_derniere .bouquet_suite .grand_descr .submit .send span {
+  color: #8B3131;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+}
+.last_derniere .back_group {
+  position: relative;
+  z-index: -15;
+}
+.last_derniere .back_group .back_left {
+  position: absolute;
+  z-index: -11;
+  top: -800px;
+}
+.last_derniere .back_group .back_right {
+  position: absolute;
+  top: -800px;
+  right: 0;
+}
+.last_derniere footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  margin: -77px 0px 0px 0px;
+  position: relative;
+  z-index: 16;
+  top: -800px;
+  top: 102px;
+  background: #040A0A;
+}
+.last_derniere footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+.last_derniere footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+.last_derniere footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.last_derniere footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last_derniere footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.last_derniere footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.last_derniere footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.last_derniere footer .footer_commun .nav_commun .nav_bas {
+  width: 180px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.last_derniere footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

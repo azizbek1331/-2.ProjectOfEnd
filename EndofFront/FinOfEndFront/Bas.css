@@ -1,0 +1,1281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./FontsofFin/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofFin/Cormorant/Cormorant-Regular.ttf");
+}
+.beginlower {
+  width: 100%;
+  height: 3500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.beginlower .derrier_com {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: -3;
+}
+.beginlower .derrier_com .derrier {
+  width: 700px;
+  height: 800px;
+  background-image: url("./ImagesOfFin/rosedefin.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+.beginlower .derrier_com .derrier .derrier_intro {
+  width: 504.417px;
+  height: 360.441px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  margin-top: 300px;
+  border-radius: 504.417px;
+  background: #7D2253;
+  filter: blur(125px);
+  z-index: -9;
+  position: absolute;
+}
+.beginlower .derrier_com .derrier_right {
+  width: 100%;
+  height: 900px;
+  background-image: url("./ImagesOfFin/rosedefin2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 40px;
+  position: absolute;
+  z-index: 18;
+}
+.beginlower .derrier_com .derrier_right .right_interieur {
+  width: 300.696px;
+  height: 280.609px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  margin-left: 1160px;
+  background: #7D2253;
+  filter: blur(125px);
+}
+.beginlower .idinticatornav {
+  width: 80%;
+  height: 85px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.beginlower .idinticatornav .secondpart {
+  width: 259px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.beginlower .idinticatornav .secondpart p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .idinticatornav .secondpart span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .idinticatornav .pagenav {
+  width: 132px;
+  height: 18px;
+}
+.beginlower .idinticatornav .pagenav p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .hautgeneral {
+  display: flex;
+  flex-direction: row;
+}
+.beginlower nav {
+  width: 800px;
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 150px;
+  display: flex;
+}
+.beginlower nav ul {
+  width: 800px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.beginlower nav ul .brand {
+  width: 32px;
+  height: 71px;
+}
+.beginlower nav ul .details {
+  width: 705px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+}
+.beginlower nav ul .details li {
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.beginlower nav ul .details li a {
+  color: white;
+  text-decoration: none;
+}
+.beginlower nav ul .details .iconsgroup {
+  width: 68px;
+  display: flex;
+  flex-direction: row;
+}
+.beginlower nav ul .details .iconsgroup li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.beginlower .address {
+  width: 315px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 33px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.beginlower .address .onepart {
+  width: 312px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.beginlower .address .onepart p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .address .onepart span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .address .secondpart {
+  width: 259px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.beginlower .address .secondpart p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .address .secondpart span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com {
+  width: 100%;
+  height: 610px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.beginlower .descr_com .description {
+  width: 80%;
+  height: 534px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+.beginlower .descr_com .description .descr_catalog {
+  width: 975px;
+  height: 534px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter {
+  width: 870px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_haut {
+  width: 600px;
+  height: 120px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_haut .F_haut {
+  width: 530px;
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_haut .F_haut h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_bas {
+  width: 860px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_bas .F_bas {
+  width: 530px;
+  height: 100px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_bas .F_bas h2 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_bas .F_title {
+  width: 530px;
+  height: 35px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_filter .descrF_bas .F_title p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button button {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_premier {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_premier .F1 {
+  width: 170px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_premier .F2 {
+  width: 160px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_premier .F3 {
+  width: 180px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_premier .F4 {
+  width: 223px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_premier .F5 {
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second .F6 {
+  width: 142px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second .F7 {
+  width: 157px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second .F8 {
+  width: 182px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second .F9 {
+  width: 86px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second .F10 {
+  width: 85px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second .F11 {
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second #F12 {
+  width: 196px;
+  height: 40px;
+  background: transparent;
+  border-radius: 40px;
+  background: #43FFD2;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_second #F12 a {
+  text-decoration: none;
+  color: #040A0A;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F13 {
+  width: 173px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F14 {
+  width: 115px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F15 {
+  width: 114px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F16 {
+  width: 184px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F17 {
+  width: 183px;
+  height: 40px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F13 {
+  width: 150px;
+  height: 30px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .descr_catalog .descr_button .button_last .F19 {
+  width: 150px;
+  height: 30px;
+  background: transparent;
+  border: 0.5px solid #FFF;
+}
+.beginlower .descr_com .description .social_com {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 120px;
+}
+.beginlower .descr_com .description .social_com .social {
+  display: flex;
+  margin-top: 60px;
+}
+.beginlower .descr_com .description .social_com .continuation {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+}
+.beginlower .descr_com .description .social_com .continuation .continuation_com {
+  width: 200px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.beginlower .descr_com .description .social_com .continuation .continuation_com p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .description .social_com .continuation .continuation_com .call {
+  width: 185px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.beginlower .descr_com .description .social_com .continuation .continuation_com .call button {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border: none;
+}
+.beginlower .descr_com .description .social_com .continuation .sacamain {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-image: url("./IconsOfFin/sac.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.beginlower .descr_com .description .social_com .continuation .sacamain img {
+  margin: 15px 15px;
+}
+.beginlower .descr_com .select {
+  width: 80%;
+  height: 45px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 420px;
+}
+.beginlower .descr_com .select select {
+  width: 257px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: none;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .select #checkbox_value {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.beginlower .descr_com .select #checkbox_value p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .descr_com .select #checkbox_value button img {
+  background: transparent;
+}
+.beginlower .container {
+  width: 1000px;
+  height: 818px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  gap: 60px;
+  margin-top: -100px;
+  margin: 20px auto auto 160px;
+  position: relative;
+}
+.beginlower .container #list {
+  width: 100%;
+  height: 2150px;
+  padding: 20px;
+  display: grid;
+  -moz-column-gap: 1%;
+       column-gap: 1%;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 32.66% 32.66% 32.66%;
+  grid-template-rows: 537px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.beginlower .container #list .items {
+  width: 260px;
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.beginlower .container #list .items img {
+  width: 255px;
+  height: 335px;
+}
+.beginlower .container #list .items .title {
+  width: 160px;
+  height: 30px;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.beginlower .container #list .items .price {
+  width: 72px;
+  height: 21px;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container #list .items button {
+  width: 255px;
+  height: 50px;
+  flex-shrink: 0;
+  background: transparent;
+  border: 0.5px solid #FFF;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter {
+  width: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 818px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.beginlower .container .filter .item {
+  width: 227px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.beginlower .container .filter .item select {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item label {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item input {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+.beginlower .container .filter .item {
+  width: 227px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.beginlower .container .filter .item h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item label {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item input {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+.beginlower .container .filter .item {
+  width: 227px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.beginlower .container .filter .item h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item label {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item input {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+.beginlower .container .filter .item {
+  width: 227px;
+  height: 55px;
+}
+.beginlower .container .filter .item .item_com {
+  width: 227px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.beginlower .container .filter .item .item_com h4 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item .item_com input {
+  width: 100px;
+  height: 1px;
+  background: #FFF;
+}
+.beginlower .container .filter .item .item_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item {
+  width: 227px;
+  height: 110px;
+  display: flex;
+}
+.beginlower .container .filter .item .item_right {
+  width: 226px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.beginlower .container .filter .item .item_right .item_left {
+  width: 224px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+.beginlower .container .filter .item .item_right .item_left h5 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .container .filter .item .item_right .item_gauche {
+  width: 2px;
+  height: 40px;
+  margin-top: 20px;
+}
+.beginlower .container .filter .item .item_right .item_gauche hr {
+  width: 1px;
+  height: 40px;
+  background: #43FFD2;
+}
+.beginlower .container .filter .item button {
+  width: 223px;
+  height: 50px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.beginlower .container_com {
+  width: 750px;
+  height: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 700px;
+  position: absolute;
+  z-index: -17;
+}
+.beginlower .container_com .container_bas {
+  width: 747.738px;
+  height: 173.928px;
+  transform: rotate(-71.859deg);
+  flex-shrink: 0;
+  border-radius: 747.738px;
+  background: #43FFD2;
+  filter: blur(125px);
+  margin-left: -350px;
+  z-index: -7;
+}
+.beginlower .container_com .container_derrier {
+  width: 550px;
+  height: 360px;
+  transform: rotate(32.828deg);
+  border-radius: 504px;
+  background: #7D2253;
+  filter: blur(125px);
+  margin-left: -300px;
+  z-index: -6;
+}
+.beginlower .last_commun {
+  width: 100%;
+  height: 540px;
+}
+.beginlower .last_commun .bas_commun {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  z-index: -18;
+}
+.beginlower .last_commun .bas_commun .bas_begin {
+  width: 30%;
+  height: 200px;
+}
+.beginlower .last_commun .bas_commun .bas_begin .bas_left {
+  width: 99.587px;
+  height: 211.054px;
+  transform: rotate(21.097deg);
+  flex-shrink: 0;
+  background-color: #43FFD2;
+  filter: blur(125px);
+  margin-top: -5px;
+  position: absolute;
+  z-index: -18;
+}
+.beginlower .last_commun .bas_commun .bas_part {
+  width: 70%;
+  height: 195px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 120px;
+}
+.beginlower .last_commun .bas_commun .bas_part .bas_center {
+  width: 450px;
+  height: 120.054px;
+  transform: rotate(21.097deg);
+  flex-shrink: 0;
+  border-radius: 879.44px;
+  background: #43FFD2;
+  filter: blur(125px);
+  position: absolute;
+  z-index: -16;
+}
+.beginlower .last_commun .bas_commun .bas_part .bas_right {
+  width: 500px;
+  height: 400px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  background-color: #7D2253;
+  filter: blur(125px);
+  position: absolute;
+  margin-left: 490px;
+  z-index: -17;
+}
+.beginlower .last_commun footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  background: #040A0A;
+}
+.beginlower .last_commun footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.beginlower .last_commun footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .nav_bas {
+  width: 180px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .last_commun footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.countResults {
+  font-size: xx-large;
+  text-align: start;
+  padding: 20px;
+}/*# sourceMappingURL=Bas.css.map */

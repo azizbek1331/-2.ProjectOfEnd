@@ -1,0 +1,1608 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./FontsofEnd/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofEnd/Cormorant/Cormorant-Regular.ttf");
+}
+body {
+  background-color: #000;
+}
+
+.img {
+  width: 50%;
+  height: 1200px;
+  margin-top: -50px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.premier {
+  width: 358.902px;
+  height: 293.047px;
+  left: 0;
+  border-radius: 350px;
+  background: #249479;
+  filter: blur(125px);
+  position: absolute;
+  z-index: -2;
+  top: 50%;
+  border-radius: 472.65px;
+}
+
+.right {
+  position: absolute;
+  right: 0 !important;
+  left: auto !important;
+  background: #7D2253;
+}
+
+.beginlower {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./ImagesofEnd/mainfirst.png");
+  background-size: cover;
+}
+.beginlower .hautgeneral {
+  display: flex;
+  flex-direction: row;
+}
+.beginlower nav {
+  width: 730px;
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 150px;
+  display: flex;
+}
+.beginlower nav ul {
+  width: 730px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.beginlower nav ul .brand {
+  width: 32px;
+  height: 71px;
+}
+.beginlower nav ul .details {
+  width: 600px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+}
+.beginlower nav ul .details li {
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.beginlower nav ul .details li a {
+  color: white;
+  text-decoration: none;
+}
+.beginlower nav ul .details .iconsgroup {
+  width: 68px;
+  display: flex;
+  flex-direction: row;
+}
+.beginlower nav ul .details .iconsgroup li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.beginlower .address {
+  width: 260px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.beginlower .address .onepart {
+  width: 259px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.beginlower .address .onepart p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .address .onepart span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .address .secondpart {
+  width: 259px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.beginlower .address .secondpart p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.beginlower .address .secondpart span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beginlower .description {
+  width: 77%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 110px;
+  margin: 0 auto;
+}
+.beginlower .description .exclaim {
+  width: 83%;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.beginlower .description .exclaim h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 145px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.beginlower .description .exclaim p.special {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.beginlower .description .exclaim p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.beginlower .description .social {
+  display: flex;
+  margin-top: 60px;
+}
+.beginlower .descrBas {
+  width: 77%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.beginlower .descrBas .view {
+  width: 58%;
+  height: 55px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.beginlower .descrBas .view button {
+  width: 220px;
+  height: 50px;
+  background: #43FFD2;
+  color: #000;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border: none;
+}
+.beginlower .descrBas .continuation {
+  width: 42%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.beginlower .descrBas .continuation p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.beginlower .descrBas .continuation .call {
+  width: 185px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.beginlower .descrBas .continuation .call button {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border: none;
+}
+.beginlower .descrBas .continuation .sacamain {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-image: url("./ImagesofEnd/arrieredesag.png");
+}
+.beginlower .descrBas .continuation .sacamain img {
+  margin: 15px 15px;
+}
+
+.bottom {
+  width: 100%;
+  height: 250px;
+  background-image: url("./ImagesofEnd/BasShowcase.png");
+}
+.bottom img {
+  margin-left: 1030px;
+}
+
+.familiarization {
+  width: 100%;
+  height: 1100px;
+}
+.familiarization .emphasgeneral {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  flex-direction: row;
+}
+.familiarization .emphasgeneral .emphasgener {
+  width: 50%;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 200px;
+  align-items: flex-end;
+}
+.familiarization .emphasgeneral .emphasgener .emphasize {
+  width: 620px;
+  height: 250px;
+  background: url("./ImagesofEnd/букетыsvg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.familiarization .emphasgeneral .emphasgener .emphasize3 {
+  width: 750px;
+  height: 250px;
+  background: url("./ImagesofEnd/дополнительно.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.familiarization .emphasgeneral .emphascommun {
+  width: 50%;
+  height: 1100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.familiarization .emphasgeneral .emphascommun .emphasize2 {
+  width: 650px;
+  height: 250px;
+  background: url("./ImagesofEnd/Цветы.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #728080;
+}
+.familiarization .emphasgeneral .droit {
+  width: 800px;
+  height: 236px;
+  flex-shrink: 0;
+  border-radius: 707.545px;
+  background: #7D2253;
+  left: -100px;
+  position: absolute;
+  z-index: -2;
+  top: 1800px;
+  border-radius: 472.65px;
+}
+.familiarization .emphasgeneral .left {
+  position: absolute;
+  right: 0 !important;
+  left: auto !important;
+  background: #7D2253;
+  top: 1800px;
+  width: 690px;
+  height: 270px;
+  flex-shrink: 0;
+  border-radius: 879.44px;
+  background: #43FFD2;
+  filter: blur(125px);
+}
+.familiarization .block {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 5;
+}
+.familiarization .block .brick {
+  width: 100%;
+  height: 1100px;
+  gap: 12px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-row-gap: 12px;
+  grid-column-gap: 8px;
+}
+.familiarization .block .brick .tete {
+  width: 750px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: -350px;
+}
+.familiarization .block .brick .tete .letters_group {
+  width: 100%;
+  height: 130px;
+}
+.familiarization .block .brick .tete .letters_group h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .tete .letters_commun {
+  width: 830px;
+  height: 130px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.familiarization .block .brick .tete .letters_commun p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+}
+.familiarization .block .brick .card1 {
+  width: 540px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin-left: -10px;
+  margin-top: -90px;
+}
+.familiarization .block .brick .card1 .into {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+}
+.familiarization .block .brick .card1 .into h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card1 .into ol {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.familiarization .block .brick .card1 .into span {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card1 .interieur {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.familiarization .block .brick .card1 .interieur span {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card {
+  width: 480px;
+  height: 281px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin-top: -105px;
+  margin-left: 60px;
+}
+.familiarization .block .brick .card .into {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+}
+.familiarization .block .brick .card .into h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card .into ol {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.familiarization .block .brick .card .into span {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card .interieur {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.familiarization .block .brick .card .interieur span {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card2 {
+  width: 540px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin-right: 55px;
+  margin-top: 10px;
+}
+.familiarization .block .brick .card2 .into {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+}
+.familiarization .block .brick .card2 .into h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card2 .into ol {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.familiarization .block .brick .card2 .into span {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.familiarization .block .brick .card2 .interieur {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.familiarization .block .brick .card2 .interieur span {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.publication {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./ImagesofEnd/mainsecond.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -420px;
+  position: relative;
+}
+.publication .etoile {
+  width: 571.277px;
+  height: 396.429px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  border-radius: 707.545px;
+  background: #7D2253;
+  filter: blur(125px);
+  left: 300px;
+  position: absolute;
+  z-index: -2;
+  top: 1050px;
+}
+.publication .etoiles {
+  position: absolute;
+  background: #7D2253;
+  top: 800px;
+  width: 180.998px;
+  height: 1200.887px;
+  transform: rotate(145.828deg);
+  flex-shrink: 0;
+  border-radius: 300.44px;
+  background: #43FFD2;
+  filter: blur(125px);
+  fill: rgba(67, 255, 210, 0.47);
+}
+.publication .populaire {
+  width: 900px;
+  height: 255px;
+  position: absolute;
+  z-index: 6;
+  margin-top: 512px;
+  margin-left: -220px;
+}
+.publication .populaire .post {
+  width: 740px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.publication .populaire .post h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.publication .populaire .postdep {
+  width: 810px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.publication .populaire .postdep .postpest {
+  width: 410px;
+  height: 50px;
+}
+.publication .populaire .postdep .postpest p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+.publication .populaire .postdep h2 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.publication section {
+  width: 1200px;
+  height: 595px;
+  margin-top: 850px;
+}
+.publication section .swiper {
+  width: 1150px;
+  height: 594px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.allview {
+  width: 220px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  text-align: center;
+  margin-right: 1030px;
+  margin-top: 60px;
+}
+.allview p {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.orderside {
+  width: 100%;
+  height: 1220px;
+  position: relative;
+  z-index: -7;
+  background: #040A0A;
+}
+
+.orderside img {
+  margin-top: 80px;
+}
+
+.orderside h4 {
+  width: 40%;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: -8;
+  top: 0;
+  left: 200px;
+}
+
+.steps {
+  width: 700px;
+  height: 550px;
+  position: relative;
+  display: flex;
+  gap: 100px;
+  left: 700px;
+  bottom: 600px;
+}
+
+button.one {
+  width: 65px;
+  height: 10px;
+  background: #D978AC;
+  border: none;
+}
+
+.steppart {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.steppart h5 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.steppart p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.salom img {
+  margin-left: -240px;
+  margin-top: -80px;
+}
+
+.salom button.two {
+  width: 2px;
+  height: 537px;
+  background: #D978AC;
+  border: none;
+  margin-top: 80px;
+  border: none;
+}
+
+.support {
+  width: 100%;
+  height: 855px;
+  position: relative;
+}
+.support .purple {
+  width: 354px;
+  height: 364px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  position: absolute;
+  margin-left: 1090px;
+  top: 200px;
+  background-color: #7D2253;
+  filter: blur(125px);
+}
+.support .introduction {
+  width: 90%;
+  height: 242px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.support .introduction .intr_interieur {
+  width: 658px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+}
+.support .introduction .intr_interieur h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.support .introduction .intr_interieur .intr_descr {
+  width: 790px;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.support .introduction .intr_interieur .intr_descr hr {
+  width: 255px;
+  height: 1px;
+  background: #D978AC;
+}
+.support .introduction .intr_interieur .intr_descr h2 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.support .introduction_bas {
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+.support .introduction_bas .react {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 190px;
+}
+.support .introduction_bas .react .react_left {
+  display: flex;
+  align-items: center;
+}
+.support .introduction_bas .react .react_left img {
+  margin-top: 240px;
+}
+.support .introduction_bas .react .react_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.support .introduction_bas .react .react_right p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.support .introduction_bas .react .react_right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.support .introduction_bas .react .react_right li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.support .introduction_bas .react .react_right .btn {
+  width: 255px;
+  height: 50px;
+}
+.support .introduction_bas .react .react_right .btn button {
+  width: 255px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #43FFD2;
+  color: #000;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.support .introduction_bas .lesImages {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  z-index: 2;
+  margin-top: -80px;
+}
+
+.submit {
+  width: 100%;
+  height: 666px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.submit .bas_left {
+  width: 416.232px;
+  height: 427.121px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  background-color: #7D2253;
+  position: absolute;
+  filter: blur(125px);
+  margin-top: 80px;
+  margin-left: 150px;
+  z-index: -6;
+}
+.submit .bas_right {
+  width: 244.77px;
+  height: 285.945px;
+  transform: rotate(32.828deg);
+  flex-shrink: 0;
+  background-color: #43FFD2;
+  filter: blur(125px);
+  margin-top: 250px;
+  margin-left: 500px;
+  position: absolute;
+}
+.submit .send {
+  width: 60%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  background: url("./ImagesofEnd/submitImage.png");
+  background-repeat: no-repeat;
+  background-position-y: -60px;
+}
+.submit .send .part {
+  width: 635px;
+  height: 95px;
+  margin-top: 40px;
+}
+.submit .send .part h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.submit .send .question {
+  width: 700px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.submit .send .question h2 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.submit .identification {
+  width: 40%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.submit .identification .hr {
+  width: 75%;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 70px;
+}
+.submit .identification .hr hr {
+  width: 255px;
+  height: 1px;
+  background: #43FFD2;
+}
+.submit .identification .hr p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.submit .identification .solitude {
+  width: 445px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.submit .identification .solitude .buttons {
+  width: 445px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.submit .identification .solitude .buttons .name {
+  width: 445px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #395959;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.submit .identification .solitude .buttons .number {
+  width: 445px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #395959;
+  font-family: "Oswald";
+  background: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.submit .identification .solitude .buttons .comment {
+  width: 445px;
+  height: 120px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #395959;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.submit .identification .solitude .envoyer {
+  width: 342px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.submit .identification .solitude .envoyer button {
+  width: 255px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #43FFD2;
+  color: #000;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border: none;
+}
+.submit .identification .solitude .envoyer p {
+  color: #FFF;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.submit .identification .solitude .envoyer span {
+  color: #D978AC;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+}
+
+.last_part {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.last_part .last_com {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 300px;
+}
+.last_part .last_com .noel_com {
+  width: 1000px;
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+}
+.last_part .last_com .noel_com .noel {
+  width: 100%;
+  height: 170px;
+  text-align: center;
+  background: url("./ImagesofEnd/instagram.text.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.last_part .last_com .noel_com .noel img {
+  margin-top: -52px;
+}
+.last_part .dernier_com {
+  height: 270px;
+  margin-left: -70px;
+  margin-top: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.last_part .dernier_com .noel_right {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.last_part .dernier_com .noel_right .line_direct {
+  width: 350px;
+  height: 165px;
+  background: url("./ImagesofEnd/our social networks.png");
+  background-repeat: no-repeat;
+}
+.last_part .dernier_com .noel_right .line_direct hr {
+  width: 350px;
+  height: 1px;
+  margin-top: 100px;
+  background: #43FFD2;
+}
+.last_part .dernier_com .noel_right .soc_nets {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.last_part .milieu_com {
+  width: 900px;
+  height: 200px;
+  margin-left: -1200px;
+  display: flex;
+  flex-direction: row;
+}
+.last_part .milieu_com .milieu_left {
+  width: 99.587px;
+  height: 211.054px;
+  transform: rotate(21.097deg);
+  flex-shrink: 0;
+  background-color: #43FFD2;
+  filter: blur(125px);
+  margin-top: 240px;
+  z-index: -7;
+}
+.last_part .milieu_com .milieu_center {
+  width: 600px;
+  height: 211.054px;
+  transform: rotate(21.097deg);
+  flex-shrink: 0;
+  border-radius: 879.44px;
+  background: #43FFD2;
+  filter: blur(125px);
+  margin-left: 450px;
+  margin-top: 440px;
+  position: absolute;
+  z-index: -6;
+}
+.last_part .milieu_com .milieu_right {
+  width: 354.93px;
+  height: 364.216px;
+  flex-shrink: 0;
+  background: #7D2253;
+  filter: blur(125px);
+  margin-top: 340px;
+  position: absolute;
+  right: 0 !important;
+  left: auto !important;
+  background: #7D2253;
+  z-index: -5;
+}
+
+footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  background: #040A0A;
+}
+footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+footer .footer_commun .nav_commun .nav_bas {
+  width: 160px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

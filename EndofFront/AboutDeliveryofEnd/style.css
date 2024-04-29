@@ -1,0 +1,905 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./FontsofEnd/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofEnd/Cormorant/Cormorant-Regular.ttf");
+}
+body {
+  background-color: #000;
+}
+
+.deliver_main {
+  width: 100%;
+  height: 2500px;
+}
+.deliver_main .side_begin {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  z-index: -4;
+}
+.deliver_main .side_begin .side_left {
+  position: absolute;
+  z-index: -1;
+}
+.deliver_main .side_begin .side_right {
+  position: absolute;
+  right: 0;
+  z-index: -2;
+}
+.deliver_main .side_begin .fleur_right {
+  position: absolute;
+  right: 0;
+  top: 130px;
+}
+.deliver_main nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.deliver_main nav .nav_commun {
+  width: 86%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 153px;
+}
+.deliver_main nav .nav_commun .nav_tete {
+  width: 840px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.deliver_main nav .nav_commun .nav_tete .logos {
+  position: absolute;
+  top: 0;
+}
+.deliver_main nav .nav_commun .nav_tete ul {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+.deliver_main nav .nav_commun .nav_tete ul li {
+  list-style: none;
+}
+.deliver_main nav .nav_commun .nav_tete ul li a {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.deliver_main nav .nav_commun .number {
+  width: 231px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+.deliver_main nav .nav_commun .number .shopping {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: right;
+}
+.deliver_main nav .nav_commun .number .shopping img {
+  cursor: pointer;
+  width: 40px;
+}
+.deliver_main nav .nav_commun .number p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.deliver_main .idinticator {
+  width: 485px;
+  height: 25px;
+  margin: 35px 0px 0px 110px;
+}
+.deliver_main .idinticator p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.deliver_main .main {
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.deliver_main .main .deliver_text {
+  width: 85%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  margin: 85px auto 0px;
+  position: relative;
+}
+.deliver_main .main .deliver_text .deliver_commence {
+  width: 670px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.deliver_main .main .deliver_text .deliver_commence .about_service {
+  width: 620px;
+  height: 250px;
+  position: relative;
+}
+.deliver_main .main .deliver_text .deliver_commence .about_service h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .deliver_commence .about_service h2 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 95px;
+}
+.deliver_main .main .deliver_text .deliver_commence .exclaim_client {
+  width: 606px;
+  height: 94px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 65px;
+}
+.deliver_main .main .deliver_text .deliver_commence .exclaim_client .exclaim_photo {
+  width: 25px;
+  height: 70px;
+}
+.deliver_main .main .deliver_text .deliver_commence .exclaim_client .exclaim_presentation {
+  width: 590px;
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.deliver_main .main .deliver_text .deliver_commence .exclaim_client .exclaim_presentation h3 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .deliver_commence .exclaim_client .exclaim_presentation p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .deliver_commence .exclaim_client .exclaim_presentation span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .phase_pay {
+  width: 97%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.deliver_main .main .deliver_text .phase_pay .ellipse {
+  position: absolute;
+  left: -150px;
+  top: -200px;
+  z-index: -4;
+}
+.deliver_main .main .deliver_text .phase_pay .ellipse_2 {
+  position: absolute;
+  right: -50px;
+  top: -270px;
+  z-index: -5;
+}
+.deliver_main .main .deliver_text .phase_pay h4 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase {
+  width: 255px;
+  height: 211px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.2);
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase .phase_into {
+  width: 231px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase .phase_into img {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  color: #6B535F;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_second {
+  width: 255px;
+  height: 211px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.2);
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_second .phase_into {
+  width: 231px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_second .phase_into img {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  color: #6B535F;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_second .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_main {
+  width: 255px;
+  height: 211px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.2);
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_main .phase_into {
+  width: 231px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_main .phase_into img {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  color: #6B535F;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_main .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_last {
+  width: 255px;
+  height: 211px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.2);
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_last .phase_into {
+  width: 231px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_last .phase_into img {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  color: #6B535F;
+}
+.deliver_main .main .deliver_text .phase_pay .phase_com .phase_last .phase_into p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix {
+  width: 85%;
+  height: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.deliver_main .main .prix .cout_into {
+  width: 755px;
+  height: 180px;
+  margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.deliver_main .main .prix .cout_into h5 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix .cout_into ul {
+  width: 755px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.deliver_main .main .prix .cout_into ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix .cout_into ul li strong {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix .cout_into ul li span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix .cout_bas {
+  width: 880px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.deliver_main .main .prix .cout_bas h6 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix .cout_bas ul {
+  width: 880px;
+  height: 90px;
+}
+.deliver_main .main .prix .cout_bas ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .main .prix .cout_bas ul li span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.deliver_main .additive {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+.deliver_main .additive .additive_back {
+  position: relative;
+  z-index: -5;
+}
+.deliver_main .additive .additive_back .ellipse_3 {
+  position: absolute;
+  left: 0;
+}
+.deliver_main .additive .additive_back .ellipse_4 {
+  position: absolute;
+  right: 0;
+}
+.deliver_main .additive .additive_back .ellipse_5 {
+  position: absolute;
+  z-index: 7;
+}
+.deliver_main .additive .additive_descr {
+  width: 85%;
+  height: 820px;
+  margin: 100px auto;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.deliver_main .additive .additive_descr .add_into {
+  width: 90%;
+  height: 620px;
+  margin: 30px 30px 30px 30px;
+}
+.deliver_main .additive .additive_descr .add_into .descr_text {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.deliver_main .additive .additive_descr .add_into .descr_text h1 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.deliver_main .additive .additive_descr .add_into .descr_text p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.deliver_main .additive .additive_descr .add_into .descr_text span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.deliver_main .additive .additive_descr .add_into .descr_text h2 {
+  color: #D978AC;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.deliver_main .additive .ellipse_6 {
+  position: absolute;
+  top: 650px;
+}
+.deliver_main .additive .ellipse_7 {
+  position: absolute;
+  top: 900px;
+  left: 150px;
+}
+.deliver_main .additive .ellipse_8 {
+  position: absolute;
+  right: 0;
+  top: 700px;
+  z-index: -1;
+}
+.deliver_main .additive .ellipse_9 {
+  position: absolute;
+  right: 0;
+  top: 650px;
+}
+
+footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 170px;
+  background: #040A0A;
+}
+footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+footer .footer_commun .nav_commun .nav_bas {
+  width: 160px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

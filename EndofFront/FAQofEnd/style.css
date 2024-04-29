@@ -1,0 +1,729 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./FontsofEnd/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofEnd/Cormorant/Cormorant-Regular.ttf");
+}
+body {
+  background-color: black;
+}
+
+.reponse_back {
+  width: 100%;
+  height: 940px;
+  position: relative;
+}
+.reponse_back nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background: #000;
+}
+.reponse_back nav .nav_commun {
+  width: 86%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 153px;
+}
+.reponse_back nav .nav_commun .nav_tete {
+  width: 840px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.reponse_back nav .nav_commun .nav_tete .logos {
+  position: absolute;
+  top: 0;
+}
+.reponse_back nav .nav_commun .nav_tete ul {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+.reponse_back nav .nav_commun .nav_tete ul li {
+  list-style: none;
+}
+.reponse_back nav .nav_commun .nav_tete ul li a {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.reponse_back nav .nav_commun .number {
+  width: 231px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+.reponse_back nav .nav_commun .number .shopping {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: right;
+}
+.reponse_back nav .nav_commun .number .shopping img {
+  cursor: pointer;
+  width: 40px;
+}
+.reponse_back nav .nav_commun .number p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reponse_back .idinticator {
+  width: 145px;
+  height: 15px;
+  margin: 35px 0px 0px 110px;
+  position: absolute;
+  top: 100px;
+  z-index: 3;
+}
+.reponse_back .idinticator p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.reponse_back .fleur_coin {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.reponse_back .reponse_coin {
+  position: absolute;
+  left: 0;
+}
+.reponse_back .reponse_right {
+  position: absolute;
+  right: 0;
+}
+.reponse_back .coin_right {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  z-index: 2;
+}
+.reponse_back .must_questions {
+  width: 990px;
+  height: 715px;
+  position: absolute;
+  left: 110px;
+  top: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.reponse_back .must_questions .reponse {
+  width: 294px;
+  height: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.reponse_back .must_questions .reponse hr {
+  width: 65px;
+  height: 1px;
+  background: #43FFD2;
+}
+.reponse_back .must_questions .reponse p {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.reponse_back .must_questions .accordion:after {
+  content: "➕";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.reponse_back .must_questions .accordion:hover {
+  background-color: #ccc;
+}
+.reponse_back .must_questions .active:after {
+  content: "➖";
+}
+.reponse_back .must_questions .reponse_suite {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reponse_back .must_questions .reponse_suite .F1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F1 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F1 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 990px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F1 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .must_questions .reponse_suite .F2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F2 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F2 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 980px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F2 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .must_questions .reponse_suite .F3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F3 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F3 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 980px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F3 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .must_questions .reponse_suite .F4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F4 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F4 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 980px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F4 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .must_questions .reponse_suite .F5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F5 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F5 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 980px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F5 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .must_questions .reponse_suite .F6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F6 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F6 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 980px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F6 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .must_questions .reponse_suite .F7 {
+  display: flex;
+  flex-direction: column;
+  gap: 10PX;
+}
+.reponse_back .must_questions .reponse_suite .F7 .accordion {
+  width: 900px;
+  height: 70px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.reponse_back .must_questions .reponse_suite .F7 .panel {
+  padding: 0 18px;
+  background-color: red;
+  display: none;
+  background: transparent;
+  width: 980px;
+  height: 140px;
+}
+.reponse_back .must_questions .reponse_suite .F7 .panel p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.reponse_back .fleur_bas {
+  position: absolute;
+  left: 0;
+  top: 650px;
+}
+.reponse_back .fleur_gauche {
+  position: absolute;
+  right: 0;
+  top: 720px;
+}
+.reponse_back footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  margin: -77px 0px 0px 0px;
+  position: absolute;
+  top: 1200px;
+  background: #040A0A;
+}
+.reponse_back footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+.reponse_back footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+.reponse_back footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.reponse_back footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reponse_back footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reponse_back footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.reponse_back footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.reponse_back footer .footer_commun .nav_commun .nav_bas {
+  width: 180px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reponse_back footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.reponse_back footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

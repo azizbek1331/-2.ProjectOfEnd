@@ -1,0 +1,1496 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./SubmitFonts/Oswald/Oswald-Light.ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("./FontsofEnd/Cormorant/Cormorant-Regular.ttf");
+}
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+nav .nav_commun {
+  width: 86%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 153px;
+}
+nav .nav_commun .nav_tete {
+  width: 840px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+nav .nav_commun .nav_tete ul {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+nav .nav_commun .nav_tete ul li {
+  list-style: none;
+}
+nav .nav_commun .nav_tete ul li a {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+nav .nav_commun .number {
+  width: 231px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+nav .nav_commun .number .shopping {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: right;
+}
+nav .nav_commun .number .shopping img {
+  cursor: pointer;
+  width: 40px;
+}
+nav .nav_commun .number p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body {
+  background-color: #000;
+}
+
+.Order {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  position: relative;
+}
+.Order .couleur_com {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  z-index: -3;
+}
+.Order .couleur_com .couleur_vert {
+  position: absolute;
+}
+.Order .couleur_com .couleur_purple img {
+  position: absolute;
+  right: 0;
+}
+.Order .idinticator {
+  width: 485px;
+  height: 25px;
+  margin: 35px 0px 0px 110px;
+  z-index: 4;
+}
+.Order .idinticator p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.Order .photo {
+  width: 100%;
+  position: relative;
+}
+.Order .photo .premier {
+  position: relative;
+  left: 315px;
+  top: -90px;
+  z-index: -3;
+  margin-right: -200px;
+}
+.Order .photo h1 {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 150px;
+  left: -340px;
+}
+.Order .photo .import {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 250px;
+  left: -250px;
+}
+.Order .photo .second {
+  position: absolute;
+  left: -450px;
+  top: 0;
+}
+.Order .photo img {
+  position: absolute;
+  top: 250px;
+  left: 230px;
+}
+
+.table_ellipse {
+  position: absolute;
+  right: 0;
+  top: 850px;
+  z-index: -7;
+}
+
+.table_ellipseF {
+  position: absolute;
+  right: 0;
+  top: 1020px;
+  z-index: -8;
+}
+
+.table_part {
+  width: 100%;
+  height: 2600px;
+}
+.table_part .table {
+  width: 85%;
+  height: 2330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.table_part .table .order_com {
+  width: 100%;
+  height: 2650px;
+  display: flex;
+  flex-direction: row;
+  gap: 220px;
+}
+.table_part .table .order_com .about_order {
+  width: 50%;
+  height: 2330px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+}
+.table_part .table .order_com .about_order h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .info_client {
+  width: 100%;
+  height: 651px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .info_client .info_contact {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .info_client .info_contact p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .info_client .information {
+  width: 100%;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .info_client .information .I {
+  width: 86%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .info_client .information .I span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .info_client .information .I input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .info_client .information .I2 {
+  width: 86%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .info_client .information .I2 span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .info_client .information .I2 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .info_client .information .I3 {
+  width: 86%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .info_client .information .I3 span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .info_client .information .I3 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .info_client .information .I4 {
+  width: 86%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .info_client .information .I4 span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .info_client .information .I4 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .info_client .information .I5 {
+  width: 86%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .info_client .information .I5 span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .info_client .information .I5 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .info_client .information .I6 {
+  width: 86%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .info_client .information .I6 span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .info_client .information .I6 input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery {
+  width: 100%;
+  height: 1700px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun {
+  width: 545px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose {
+  width: 253px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose h4 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose label {
+  width: 105px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose label .export {
+  color: #353535;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose label input {
+  width: 16px;
+  height: 16px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose .courier {
+  width: 250px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose .courier p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .choose .courier input {
+  width: 16px;
+  height: 16px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address {
+  width: 545px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address .city {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address .city span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address .city input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address .street {
+  width: 545px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address .street span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .first_commun .address .street input {
+  width: 540px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .num_group {
+  width: 550px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info {
+  width: 550px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_begin {
+  width: 170px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_begin span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_begin input {
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_main {
+  width: 170px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_main span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_main input {
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_last {
+  width: 170px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_last span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .num_info .num_last input {
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .last_part {
+  width: 225px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .last_part .part {
+  width: 162px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .last_part .part span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .last_part .part input {
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .num_group .last_part p {
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment {
+  width: 225px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment h5 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group {
+  width: 203px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .carte {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .carte label {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .carte label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .espece {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .espece label {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .espece label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .apple {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .apple label {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .apple label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .google {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .google label {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .google label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .bitcoin {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .bitcoin label {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .bitcoin label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .account {
+  width: 200px;
+  height: 21px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .account label {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table_part .table .order_com .about_order .delivery .payment .type_group .account label p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .code {
+  width: 355px;
+  height: 107px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table_part .table .order_com .about_order .delivery .code h6 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.table_part .table .order_com .about_order .delivery .code .affirm {
+  width: 355px;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+}
+.table_part .table .order_com .about_order .delivery .code .affirm .promotion {
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.table_part .table .order_com .about_order .delivery .code .affirm .accept {
+  width: 191px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  background: transparent;
+}
+.table_part .table .order_com .about_order .delivery .sum_total {
+  width: 615px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .sum {
+  width: 550px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .sum .total {
+  width: 550px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .sum .total h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .sum .total p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .sum span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin {
+  width: 335px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin .main {
+  width: 255px;
+  height: 55px;
+  background: #43FFD2;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin .main button {
+  width: 255px;
+  height: 55px;
+  background: transparent;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin .end {
+  width: 333px;
+  height: 36px;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin .end p {
+  color: #FFF;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin .end span {
+  color: #D978AC;
+  font-family: Condensed;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+}
+.table_part .table .order_com .about_order .delivery .sum_total .fin img {
+  position: absolute;
+  right: 0;
+}
+.table_part .table .order_com .checkOut_between {
+  width: 430px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 90px;
+}
+.table_part .table .order_com .checkOut_between hr {
+  width: 360px;
+  height: 1px;
+  background: #555;
+}
+.table_part .table .order_com .checkOut_between .check_premier {
+  width: 430px;
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: #FFF;
+}
+.table_part .table .order_com .checkOut_between .check_premier .between_photo {
+  width: 60px;
+  height: 90px;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com {
+  width: 320px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com .spark {
+  width: 320px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 113px;
+  margin: 0 auto;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com .spark span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com .spark p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com .dscr_button {
+  width: 320px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 170px;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com .dscr_button span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .checkOut_between .check_premier .quantite_com .dscr_button button {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  background: transparent;
+}
+.table_part .table .order_com .checkOut_between .check_second {
+  width: 430px;
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: #FFF;
+}
+.table_part .table .order_com .checkOut_between .check_second .between_photo {
+  width: 60px;
+  height: 90px;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com {
+  width: 320px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com .spark {
+  width: 320px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 113px;
+  margin: 0 auto;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com .spark span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com .spark p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com .dscr_button {
+  width: 320px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 170px;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com .dscr_button button {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  background: transparent;
+}
+.table_part .table .order_com .checkOut_between .check_second .quantite_com .dscr_button span {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.table_part .table .order_com .checkOut_between hr {
+  width: 400px;
+  height: 1px;
+  background: #555;
+}
+.table_part .table .order_com .checkOut_between .descr_order {
+  width: 405px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.table_part .table .order_com .checkOut_between .descr_order h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+.table_part .ellipse_com {
+  width: 100%;
+  position: relative;
+  top: -500px;
+}
+.table_part .ellipse_com .F1 {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: -12;
+}
+.table_part .ellipse_com .F2 {
+  position: absolute;
+  right: 200px;
+  top: 455px;
+  z-index: -13;
+}
+.table_part .ellipse_com .F3 {
+  position: absolute;
+  left: 0;
+  top: 150px;
+}
+
+footer {
+  width: 100%;
+  height: 337px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 10;
+  background: #040A0A;
+}
+footer .footer_commun {
+  width: 90%;
+  height: 310px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 15px;
+}
+footer .footer_commun .prop_commun {
+  width: 55%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+footer .footer_commun .prop_commun .prop {
+  width: 244px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer .footer_commun .prop_commun .prop .prop_com {
+  width: 244px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .prop .prop_com h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .prop .prop_com p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun {
+  width: 345px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 64px;
+}
+footer .footer_commun .prop_commun .row_commun .row {
+  width: 160px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .row_commun .row h2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+footer .footer_commun .prop_commun .row_commun .row ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet {
+  width: 120px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet h3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .prop_commun .row_commun .bouquet ul li {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  list-style: none;
+}
+footer .footer_commun .nav_commun {
+  width: 45%;
+  height: 292px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+footer .footer_commun .nav_commun .nav_bas {
+  width: 160px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+footer .footer_commun .nav_commun .nav_bas p {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end {
+  width: 357px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com {
+  width: 266px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email {
+  width: 265px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .email p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue {
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .rue p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone {
+  width: 175px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone h1 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .address_com .phone p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_commun .nav_commun .adress_end .social_end {
+  width: 200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

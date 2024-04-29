@@ -1,0 +1,633 @@
+@font-face {
+  font-family: "Cormorant";
+  src: url("./fonts/Cormorant/Cormorant-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #040A0A;
+}
+
+nav {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  position: relative;
+  background: transparent;
+}
+nav .logo {
+  width: 10%;
+}
+nav .logo img {
+  background: transparent;
+}
+nav .links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background: transparent;
+}
+nav .links li {
+  background: transparent;
+}
+nav .links li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav .links li a img {
+  background: transparent;
+}
+nav .navinfo {
+  width: 20%;
+  display: flex;
+  gap: 36px;
+  margin: 0 auto;
+}
+nav .navinfo li {
+  background: transparent;
+}
+nav .navinfo li a {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.showback {
+  width: 100%;
+  position: relative;
+}
+.showback .img1 {
+  position: absolute;
+}
+.showback .img2 {
+  position: absolute;
+  right: 0;
+}
+.showback .img3 {
+  position: absolute;
+}
+.showback .img4 {
+  position: absolute;
+  right: 0;
+}
+.showback .img5 {
+  position: absolute;
+  right: 0;
+}
+.showback .img6 {
+  position: absolute;
+  right: 600px;
+  top: 300px;
+}
+
+.showcase {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.showcase h1.title1 {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.showcase h2.first {
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+.showcase h2.second {
+  width: 80%;
+  margin: 0 auto;
+  color: #FFF;
+  font-family: "Cormorant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.orderInput {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.orderInput h3.title2 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.orderInput p.title3 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.orderInput .inputs {
+  margin-top: 20px;
+}
+.orderInput .inputs p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  margin-bottom: 10px;
+}
+.orderInput .inputs input {
+  width: 540px;
+  height: 50px;
+  border: 1px solid #555;
+  color: #555;
+  margin-bottom: 20px;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  padding: 10px;
+  background: fixed;
+}
+
+.mediumback {
+  width: 100%;
+  position: relative;
+}
+.mediumback .img1 {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.mediumback .img2 {
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+
+.delivery {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.delivery p.title5 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.delivery .one {
+  display: flex;
+  gap: 10px;
+}
+.delivery .one input {
+  width: 16px;
+  height: 16px;
+}
+.delivery .one label {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.delivery .two {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.delivery .two input {
+  width: 16px;
+  height: 16px;
+}
+.delivery .two label {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.delivery p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  margin-bottom: 10px;
+}
+.delivery select {
+  width: 570px;
+  height: 50px;
+  border: 1px solid #555;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: fixed;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.delivery input {
+  width: 550px;
+  height: 50px;
+  border: 1px solid #555;
+  background: fixed;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  padding: 10px;
+}
+.delivery .infos {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.delivery .infos input {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #555;
+  background: fixed;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  padding: 10px;
+}
+.delivery p {
+  margin-top: 20px;
+}
+.delivery input {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #555;
+  background: fixed;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.delivery p.total {
+  color: #555;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.paySide {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.paySide p.title6 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+.paySide .checkpart {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+.paySide .checkpart label {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.paySide p.title7 {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  margin-top: 60px;
+}
+.paySide .bothBtn {
+  display: flex;
+  margin-top: 10px;
+}
+.paySide .bothBtn button {
+  width: 191px;
+  height: 60px;
+  border: 1px solid #555;
+  color: #555;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  background: fixed;
+}
+.paySide .alltotal {
+  display: flex;
+  gap: 100px;
+  margin-top: 60px;
+}
+.paySide .alltotal p:nth-child(1) {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.paySide .alltotal p:nth-child(2) {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.paySide p.skidka {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.paySide p.dostavka {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.paySide button {
+  width: 255px;
+  height: 50px;
+  background: #43FFD2;
+  color: #000;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border: none;
+}
+.paySide .lastinfo {
+  width: 40%;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+}
+
+.bottomback {
+  width: 100%;
+  position: relative;
+}
+.bottomback .img1 {
+  position: absolute;
+  top: -200px;
+}
+.bottomback .img2 {
+  position: absolute;
+  right: 0;
+  top: -300px;
+}
+.bottomback .img3 {
+  position: absolute;
+  top: -200px;
+  left: 900px;
+}
+
+.footer {
+  height: 500px;
+  position: relative;
+  background: #000;
+  margin-top: 150px;
+  z-index: 2;
+}
+.footer .innerfoot {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .innerfoot .info1 {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+}
+.footer .innerfoot .info1 img {
+  width: 25px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.footer .innerfoot .info1 span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.footer .innerfoot .info1 p {
+  width: 90%;
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.footer .innerfoot .info2 span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.footer .innerfoot .info2 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.footer .innerfoot .info3 span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer .innerfoot .info3 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.footer .innerfoot .info4 span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.footer .innerfoot .info5 span {
+  color: #43FFD2;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.footer .innerfoot .info5 p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.footer .innerfoot .info5 .innerinfo {
+  margin-bottom: 20px;
+}
+.footer .innerfoot .info5 .socialmedias {
+  margin-top: 38px;
+}/*# sourceMappingURL=placingOrder.css.map */
